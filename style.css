@@ -98,9 +98,17 @@
     margin-left: 52%;
 }
 
+.kroky3 {
+    font-family:'Roboto Mono', monospace;
+    font-size: 1.1em;
+    font-weight: bolder;
+    background-color: black;
+    color: #eaecdb;
+    width: 50%;
+}
+
 
 .btn {
-    position: fixed;
     font-size: 1.3em;
     margin-left: 50%;
     margin-top: 2%;
@@ -114,7 +122,7 @@
     background-color: black;
     color: #eaecdb;
     cursor: pointer;
-    transform: scale(1)
+    transform: scale(1);
 }
 
 .btn:active {
