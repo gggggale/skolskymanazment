@@ -6,6 +6,9 @@
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {
+    .logo {
+        visibility: hidden;
+    }
   }
 .anj1 {
     font-family:'Roboto Mono', monospace;
