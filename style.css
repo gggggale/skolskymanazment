@@ -70,7 +70,7 @@
     
 
 .iniciativa {
-    font-family:'UKSans-Medium';
+    font-family:'UKSans-Light';
     float: left;
     width: 30%;
     margin-left: 12%;
@@ -88,21 +88,22 @@
     }
     
 .nazov {
-    font-weight: bolder;
+    font-family:'UKSans-Medium';
 }
 
 .nazov2 {
     font-size: 1.3em;
+    font-family: 'UKSans-Medium', monospace;
 }
 
 .nazov3 {
     font-size: 1.5em;
 }
 .logo {
-    width: 25%;
-    height: 44%;
+    width: 23%;
+    height: 42%;
     position: absolute;
-    margin-top: 14%;
+    margin-top: 11%;
     margin-left: -84%;
 }
 
@@ -132,7 +133,7 @@
 }
 
 .kroky3 {
-    font-family:'Roboto Mono', monospace;
+    font-family:'UKSans-Light', monospace;
     font-size: 1.1em;
     font-weight: bolder;
     background-color: black;
