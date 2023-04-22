@@ -150,3 +150,8 @@ html {
 .active {
     background-color: #d5d8aa;
 }
+
+.zarovnanie {
+    margin-left: 15%;
+    margin-right: 15%;
+}
