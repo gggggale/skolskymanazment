@@ -1,6 +1,7 @@
  body {
     background-color: #eaecdb;
      overflow-y: scroll;
+     margin: 0;
      }
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
 }
@@ -19,6 +20,8 @@
     background-color: black;
     color: #eaecdb;
     padding: 1%;
+    margin-top: 0;
+    margin-bottom: 4%;
      }
 
 .navbar {
@@ -68,6 +71,9 @@
     font-weight: bolder;
 }
 
+.nazov2 {
+    font-size: 1.3em;
+}
 .logo {
     width: 25%;
     height: 44%;
@@ -106,10 +112,11 @@
     font-weight: bolder;
     background-color: black;
     color: #eaecdb;
-    width: 50%; 
     margin-top: 5%;
-    animation: 
+    text-align: center;
+    padding: 2%;
 }
+
 
 
 .btn {
@@ -129,10 +136,6 @@
     transform: scale(1);
 }
 
-.btn:active {
-    transform: translateY(1900px)
-}
-
 
 html {
     scroll-behavior: smooth;
@@ -142,4 +145,8 @@ html {
   position: fixed;
   top: 100px;
   left: 10px;
+}
+
+.active {
+    background-color: #d5d8aa;
 }
