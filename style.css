@@ -5,7 +5,7 @@
      }
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
     .navbar {
-        font-family:'Roboto Mono', monospace;
+        font-family:'UKSans-Medium';
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -29,8 +29,10 @@
   }
 
 @font-face { font-family: OpenDyslexic-Regular; src: url('OpenDyslexic-Regular.otf'); }
+@font-face { font-family: UKSans-Medium; src: url('UKSans-Medium.otf'); }
+@font-face { font-family: UKSans-Light; src: url('UKSans-Light.otf'); }
 .anj1 {
-    font-family:'Roboto Mono', monospace;
+    font-family:'UKSans-Medium';
     text-align: center;
     font-weight: bolder;
     background-color: black;
@@ -41,7 +43,7 @@
      }
 
     .navbar {
-        font-family:'Roboto Mono', monospace;
+        font-family:'UKSans-Medium';
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -68,7 +70,7 @@
     
 
 .iniciativa {
-    font-family:'Roboto Mono', monospace;
+    font-family:'UKSans-Medium';
     float: left;
     width: 30%;
     margin-left: 12%;
@@ -77,7 +79,7 @@
 }
 
 .iniciativa2 {
-    font-family:'Roboto Mono', monospace;
+    font-family:'UKSans-Light';
     float: left;
     width: 43%;
     margin-left: 12%;
@@ -100,32 +102,33 @@
     width: 25%;
     height: 44%;
     position: absolute;
-    margin-top: 15%;
+    margin-top: 14%;
     margin-left: -84%;
 }
 
 
 .aktivity {
     color: black;
-    font-family:'Roboto Mono', monospace;
+    font-family:'UKSans-Light', monospace;
     font-size: 1.8em;
     font-weight: bolder;
     margin-left: 10%
 }
 
 .kroky {
-    font-family:'Roboto Mono', monospace;
-    font-size: 1.1em;
+    font-family:'UKSans-Light', monospace;
+    font-size: 1.3em;
     width: 35%;
     margin-left: 12%
 }
 
 .kroky2 {
     position: absolute;
-    font-family:'Roboto Mono', monospace;
-    font-size: 1.1em;
+    font-family:'UKSans-Light', monospace;
+    font-size: 1.3em;
     width: 40%;
     margin-left: 52%;
+    margin-top: 0%;
 }
 
 .kroky3 {
@@ -134,7 +137,7 @@
     font-weight: bolder;
     background-color: black;
     color: #eaecdb;
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: center;
     padding: 2%;
 }
