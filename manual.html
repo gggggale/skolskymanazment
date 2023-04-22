@@ -21,24 +21,30 @@
         </div>
     </head>
 <body>
-<p class="aktivity">KROKY K TVORBE:</p>
-    <p class="kroky2">→ Vytvoriť a spravovať centralizovanú online platformu na inzerciu, rezerváciu a kontrolu možností študentského bývania.<br><br>
-→ Organizovať a uľahčovať workshopy, semináre, kampane a podujatia pre študentov na témy súvisiace s dostupným bývaním, ako je rozpočet, prenájom, údržba, právne otázky atď.<br><br>
-→ Monitorovať a hodnotiť vplyv a výsledky iniciatívy na spokojnosť študentov, akademický výkon, sociálnu integráciu a environmentálne povedomie.<br><br></p>
-    <p class="kroky">→ Uskutočniť komplexný prieskum a analýzu súčasného trhu študentského bývania a dopytu v Bratislave.<br><br>
-→ Identifikovať a zabezpečiť potenciálne lokality a nehnuteľnosti na výstavbu nových alebo renováciu existujúcich študentských ubytovacích jednotiek.<br><br>
-→ Navrhnúť a postaviť študentské bytové jednotky, ktoré spĺňajú štandardy kvality, cenovej dostupnosti, bezpečnosti, dostupnosti a šetrnosti k životnému prostrediu.<br><br>
-</p>
-    
-     <p class="kroky3 animate__animated animate__fadeInLeft"><span class="nazov2">Hlavnými aktivitami iniciatívy sú:</span><br><br>
+<object data="bratislava.svg" type="image/svg+xml"></object>
+    <script>
+        const object = document.querySelector('object');
 
-- Vytvorenie riadiaceho výboru zloženého zo zástupcov Univerzity Komenského, miestnej samosprávy, študentských spolkov, bytových agentúr a organizácií občianskej spoločnosti na dohľad a koordináciu iniciatívy.<br><br>
-- Najatie tímu odborníkov a konzultantov na vykonanie prieskumu a analýzy trhu s bývaním pre študentov a dopytu, ako aj na návrh a výstavbu študentských bytov.<br><br>
-- Zabezpečenie financovania z rôznych zdrojov, ako sú granty, dary, sponzorské dary, pôžičky atď., na pokrytie nákladov iniciatívy.<br><br>
-- Spustenie webovej stránky a účtov sociálnych médií na propagáciu iniciatívy a poskytovanie informácií a aktualizácií študentom a zainteresovaným stranám.<br><br>
-- Nábor a odborná príprava dobrovoľníkov, ktorí budú pomáhať pri implementácii a riadení iniciatívy.<br><br>
-- Vykonávanie pravidelných stretnutí a prieskumov so študentmi a zainteresovanými stranami s cieľom posúdiť ich potreby, preferencie, očakávania a spokojnosť s iniciatívou.</p>
-        
+object.addEventListener('load', function() {
+  const svgDoc = object.contentDocument;
+  const districts = svgDoc.querySelectorAll('#_03_boroughs');
+
+  districts.forEach(function(district) {
+    district.addEventListener('mouseover', function(event) {
+      event.target.style.fill = 'red';
+    });
+
+    district.addEventListener('mouseout', function(event) {
+      event.target.style.fill = '';
+    });
+
+    district.addEventListener('click', function(event) {
+      console.log('District clicked:', event.target.id);
+    });
+  });
+});
+
+    </script>
     
     </body>
 

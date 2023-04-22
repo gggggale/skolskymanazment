@@ -185,3 +185,9 @@ html {
     margin-left: 15%;
     margin-right: 15%;
 }
+
+object {
+    width: 33%;
+    height: 33%;
+    margin-top: 3%;
+}
