@@ -26,7 +26,6 @@
         margin-top: -2%;
     }
     }
-  }
 
 @font-face { font-family: OpenDyslexic-Regular; src: url('OpenDyslexic-Regular.otf'); }
 @font-face { font-family: UKSans-Medium; src: url('UKSans-Medium.otf'); }
@@ -63,7 +62,7 @@
     }
 
     .navbar a:hover {
-        background-color: black;
+        background-color: #9e2b2f;
         color: #eaecdb;
         padding: 1.3em;
     }
@@ -156,7 +155,7 @@
 
 
 .btn:hover {
-    background-color: black;
+    background-color: #9e2b2f;
     color: #eaecdb;
     cursor: pointer;
     transform: scale(1);
@@ -186,9 +185,44 @@ html {
     margin-right: 15%;
 }
 
-object {
-    width: 33%;
-    height: 33%;
-    margin-top: 3%;
-    
+.apartment-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1rem;
+    font-family: 'UKSans-Light';
+    grid-gap: 2rem;
+    margin-top: 5%;
+}
+
+.apartment-card {
+    background-color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apartment-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.apartment-details {
+    padding: 1rem;
+    flex: 1;
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+    height: 25px;
+    background-color: #F4F4F4;
+    border: 3px solid #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9e2b2f;
+    border-radius: 10px;
+    border: 3px solid #333;
 }
