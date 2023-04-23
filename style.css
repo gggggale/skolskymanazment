@@ -172,9 +172,9 @@ html {
   left: 10px;
 }
 
-.active {
-    background-color: #9e2b2f;
-    color: #eaecdb;
+.navbar li a.active {
+  background-color: #9e2b2f;
+  color: #eaecdb;
 }
 
 .zarovnanie {
@@ -188,14 +188,14 @@ html {
     overflow-x: auto;
     padding: 1rem;
     font-family: 'UKSans-Light';
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     margin-top: 5%;
 }
 
 .apartment-card {
-    background-color: var(--text-color);
-    border: 1px solid var(--accent-color);
-    border-radius: 5px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -209,6 +209,7 @@ html {
 .apartment-details {
     padding: 1rem;
     flex: 1;
+    font-family: 'UKSans-Medium';
 }
 
 ::-webkit-scrollbar {
