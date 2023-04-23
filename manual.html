@@ -27,7 +27,7 @@
 
 object.addEventListener('load', function() {
   const svgDoc = object.contentDocument;
-  const districts = svgDoc.querySelectorAll('#_03_boroughs');
+  const districts = svgDoc.querySelectorAll('#03_bratislava_5');
 
   districts.forEach(function(district) {
     district.addEventListener('mouseover', function(event) {
@@ -46,6 +46,29 @@ object.addEventListener('load', function() {
 
     </script>
     
+    <script>
+        const object = document.querySelector('object');
+
+object.addEventListener('load', function() {
+  const svgDoc = object.contentDocument;
+  const districts = svgDoc.querySelectorAll('#03_bratislava_4');
+
+  districts.forEach(function(district) {
+    district.addEventListener('mouseover', function(event) {
+      event.target.style.fill = 'red';
+    });
+
+    district.addEventListener('mouseout', function(event) {
+      event.target.style.fill = '';
+    });
+
+    district.addEventListener('click', function(event) {
+      console.log('District clicked:', event.target.id);
+    });
+  });
+});
+
+    </script>
     </body>
 
 

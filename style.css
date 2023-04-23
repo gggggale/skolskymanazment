@@ -75,7 +75,7 @@
     width: 30%;
     margin-left: 12%;
     margin-top: 1%;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .iniciativa2 {
@@ -84,7 +84,7 @@
     width: 43%;
     margin-left: 12%;
     margin-top: 1%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     }
     
 .nazov {
@@ -103,7 +103,7 @@
     width: 23%;
     height: 42%;
     position: absolute;
-    margin-top: 11%;
+    margin-top: 13%;
     margin-left: -84%;
 }
 
@@ -190,4 +190,5 @@ object {
     width: 33%;
     height: 33%;
     margin-top: 3%;
+    
 }
