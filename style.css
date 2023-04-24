@@ -202,6 +202,7 @@ html {
     flex-direction: column;
     width: 15rem;
     text-align: center;
+    text-decoration: none;
 }
 
 .apartment-card:hover {
@@ -259,11 +260,11 @@ html {
 
 .stred {
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 5em;
 }
 
 .stred:hover {
     text-decoration: none;
-    color: #9e2b2f;
+    color: #eaecdb;
 
 }
