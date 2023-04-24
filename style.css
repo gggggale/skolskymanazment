@@ -148,10 +148,11 @@
 .btn {
     font-size: 1.3em;
     margin-left: 50%;
-    margin-top: 2%;
-    background-color: #eaecdb;
+    margin-top: 10%;
     padding: 1em;
     border-color: black;
+    text-decoration: none;
+    color: #9e2b2f;
 }
 
 
@@ -159,7 +160,6 @@
     background-color: #9e2b2f;
     color: #eaecdb;
     cursor: pointer;
-    transform: scale(1);
 }
 
 
@@ -183,6 +183,7 @@ html {
     margin-right: 15%;
 }
 
+
 .apartment-list {
     display: flex;
     flex-wrap: nowrap;
@@ -199,17 +200,23 @@ html {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    width: 15rem;
+    text-align: center;
+}
+
+.apartment-card:hover {
+    background-color: #9e2b2f;
+    color: #eaecdb;
 }
 
 .apartment-card img {
     width: 100%;
-    height: auto;
+    height: 30%;
     object-fit: cover;
 }
 
 .apartment-details {
     padding: 2rem;
-    padding-right: 7rem;
     flex: 1;
     font-family: 'UKSans-Medium';
 }
@@ -248,4 +255,15 @@ html {
 
 .okraje {
     border-radius: 9px;
+}
+
+.stred {
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.stred:hover {
+    text-decoration: none;
+    color: #9e2b2f;
+
 }
