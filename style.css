@@ -190,7 +190,7 @@ html {
     padding: 1rem;
     font-family: 'UKSans-Light';
     grid-gap: 4rem;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .apartment-card {
@@ -208,7 +208,8 @@ html {
 }
 
 .apartment-details {
-    padding: 1rem;
+    padding: 2rem;
+    padding-right: 7rem;
     flex: 1;
     font-family: 'UKSans-Medium';
 }
