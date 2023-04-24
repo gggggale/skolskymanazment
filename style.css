@@ -245,3 +245,7 @@ html {
     margin-top: 5%;
     
 }
+
+.okraje {
+    border-radius: 9px;
+}
