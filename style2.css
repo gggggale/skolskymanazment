@@ -5,7 +5,7 @@
      }
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
     .navbar {
-        font-family:'UKSans-Medium';
+        font-family: OpenDyslexic-Regular;
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -19,7 +19,7 @@
         display: none;
     }
         .navbar {
-        font-family:'Roboto Mono', monospace;
+        font-family: OpenDyslexic-Regular;
         list-style-type: none;
         display: flex;
         font-size: 1.3em;
@@ -31,7 +31,7 @@
 @font-face { font-family: UKSans-Medium; src: url('UKSans-Medium.otf'); }
 @font-face { font-family: UKSans-Light; src: url('UKSans-Light.otf'); }
 .anj1 {
-    font-family:'UKSans-Medium';
+    font-family: OpenDyslexic-Regular;
     text-align: center;
     font-weight: bolder;
     background-color: black;
@@ -42,7 +42,7 @@
      }
 
     .navbar {
-        font-family:'UKSans-Medium';
+        font-family: OpenDyslexic-Regular;
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -70,7 +70,7 @@
     
 
 .iniciativa {
-    font-family:'UKSans-Light';
+    font-family: OpenDyslexic-Regular;
     float: left;
     width: 30%;
     margin-left: 12%;
@@ -79,7 +79,7 @@
 }
 
 .iniciativa2 {
-    font-family:'UKSans-Light';
+    font-family: OpenDyslexic-Regular;
     float: left;
     width: 43%;
     margin-left: 12%;
@@ -88,12 +88,12 @@
     }
     
 .nazov {
-    font-family:'UKSans-Medium';
+    font-family: OpenDyslexic-Regular;
 }
 
 .nazov2 {
     font-size: 1.3em;
-    font-family: 'UKSans-Medium', monospace;
+    font-family: OpenDyslexic-Regular;
 }
 
 .nazov3 {
@@ -103,21 +103,21 @@
     width: 23%;
     height: 42%;
     position: absolute;
-    margin-top: 13%;
+    margin-top: 18%;
     margin-left: -84%;
 }
 
 
 .aktivity {
     color: black;
-    font-family:'UKSans-Light', monospace;
+    font-family: OpenDyslexic-Regular;
     font-size: 1.8em;
     font-weight: bolder;
     margin-left: 10%
 }
 
 .kroky {
-    font-family:'UKSans-Light', monospace;
+    font-family: OpenDyslexic-Regular;
     font-size: 1.3em;
     width: 35%;
     margin-left: 12%
@@ -125,7 +125,7 @@
 
 .kroky2 {
     position: absolute;
-    font-family:'UKSans-Light', monospace;
+    font-family: OpenDyslexic-Regular;
     font-size: 1.3em;
     width: 40%;
     margin-left: 52%;
@@ -133,7 +133,7 @@
 }
 
 .kroky3 {
-    font-family:'UKSans-Light', monospace;
+    font-family: OpenDyslexic-Regular;
     font-size: 1.1em;
     font-weight: bolder;
     background-color: black;
@@ -189,7 +189,7 @@ html {
     flex-wrap: nowrap;
     overflow-x: auto;
     padding: 1rem;
-    font-family: 'UKSans-Light';
+    font-family: OpenDyslexic-Regular;
     grid-gap: 4rem;
     margin-top: 3%;
 }
@@ -219,7 +219,7 @@ html {
 .apartment-details {
     padding: 2rem;
     flex: 1;
-    font-family: 'UKSans-Medium';
+    font-family: OpenDyslexic-Regular;
 }
 
 ::-webkit-scrollbar {
@@ -236,7 +236,7 @@ html {
 }
 
 .partneri {
-        font-family:'UKSans-Light', monospace;
+        font-family: OpenDyslexic-Regular;
     font-size: 1.1em;
     font-weight: bolder;
     background-color: #9e2b2f;
@@ -247,7 +247,7 @@ html {
 
 .madeby {
     font-size: 1.4em;
-    font-family:'UKSans-Light', monospace;
+    font-family: OpenDyslexic-Regular;
     color: #9e2b2f;
     text-align: center;
     margin-top: 5%;
@@ -267,19 +267,4 @@ html {
     text-decoration: none;
     color: #eaecdb;
 
-}
-
-.dyslektici {
-    font-family: OpenDyslexic-Regular;
-    font-size: 1.4em;
-    text-decoration: none;
-    color: black;
-    background-color: red;
-    padding: 1%;
-}
-
-.dyslektici:hover{
-    background-color: black;
-    color: white;
-    
 }
