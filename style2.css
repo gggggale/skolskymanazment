@@ -75,7 +75,7 @@
     width: 30%;
     margin-left: 12%;
     margin-top: 1%;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .iniciativa2 {
@@ -84,7 +84,7 @@
     width: 43%;
     margin-left: 12%;
     margin-top: 1%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     }
     
 .nazov {
@@ -267,4 +267,19 @@ html {
     text-decoration: none;
     color: #eaecdb;
 
+}
+
+.dyslektici {
+    font-family: OpenDyslexic-Regular;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    padding: 1%;
+}
+
+.dyslektici:hover{
+    background-color: black;
+    color: white;
+    
 }
